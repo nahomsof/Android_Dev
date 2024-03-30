@@ -1,5 +1,10 @@
 <resources>
-    <string-array name="beer_colors"><itme>Light</itme> <item>amber</item> <item>brown</item> <item>dark</item> </string-array>
+    <string-array name="beer_colors">
+        <itme>Light</itme>
+        <item>amber</item>
+        <item>brown</item>
+        <item>dark</item>
+    </string-array>
     <string name="app_name">app_name</string>
     <string name="button">Button</string>
 </resources>
