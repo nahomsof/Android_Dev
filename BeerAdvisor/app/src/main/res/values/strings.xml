@@ -1,0 +1,5 @@
+<resources>
+    <string-array name="brands">No beer selected</string-array>
+    <string-array name="beer_colors"><item>lights</item><item>amber</item><item>brown</item><item>dark</item></string-array>
+    <string name="app_name">app_name</string>
+</resources>
