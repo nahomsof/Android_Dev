@@ -66,16 +66,16 @@
                         android:id="@+id/textView3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_marginBottom="12dp"
                         android:text="Get Started"
-                        android:textStyle="bold"
-                        android:textSize="21sp"
                         android:textColor="@color/white"
-                        tools:layout_editor_absoluteX="174dp"
-                        tools:layout_editor_absoluteY="19dp"
+                        android:textSize="21sp"
+                        android:textStyle="bold"
                         app:layout_constraintBaseline_toTopOf="parent"
-                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintBottom_toBottomOf="parent'"/>
+                        app:layout_constraintHorizontal_bias="0.501"
+                        app:layout_constraintStart_toStartOf="parent" />
 
                     <ImageView
                         android:id="@+id/imageView3"
