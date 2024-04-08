@@ -65,12 +65,26 @@
             app:layout_constraintStart_toEndOf="@+id/imageView7" />
 
         <TextView
-            android:id="@+id/textView9"
+            android:id="@+id/scoreTxt"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="0.0"
+            android:textColor="@color/black"
+            android:layout_marginEnd="8dp"
+            android:textSize="15dp"
+
             app:layout_constraintBottom_toBottomOf="@+id/locationtxt"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="@+id/locationtxt" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintBottom_toBottomOf="@+id/scoreTxt"
+            app:layout_constraintEnd_toStartOf="@+id/scoreTxt"
+            app:layout_constraintTop_toTopOf="@+id/scoreTxt"
+            app:srcCompat="@drawable/star" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
